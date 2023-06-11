@@ -1,3 +1,5 @@
+![js-image](/pngwing.com.png)
+
 # My Learnings
 
 1. [Inheritance](./inheritance.md)
