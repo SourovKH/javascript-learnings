@@ -1,6 +1,6 @@
 # Inheritace
 
-## Topic Overview~
+## Overview
 - Inheritance in real life means getting property, title, debts, entitlement from parents. Inheritance in Javascript is a concept that is used to inherit fields and methods of a class.
 
 - The class that is being inherited is known as parent class, and the class that is inheriting the parent class is known as child class.
@@ -13,8 +13,8 @@
 - To create **inheritance** we have to use `extends` keyword.
 - Before initializing child class constructot, first we have to call parent class constructor by `super([arguments])` to get access to the methods and fields of parent class.
 
-## Diagram
-### - Single Level Inheritance
+## Diagram:
+### - Single Level Inheritance:
 
 ```mermaid
 
@@ -23,7 +23,7 @@ graph TD;
 A([Parent Class])-->B([Child Class]);
 ```
 
-### - Multilevel Inheritance
+### - Multilevel Inheritance:
 ```mermaid
 graph TD;
 
@@ -31,7 +31,7 @@ A([Parent Class of B])-->B([Child Class of A & Parent Class of C])
 B-->C([Child Class of B])
 ```
 
-## Example
+## Example:
 
 ```javascript
 //parent class
@@ -77,3 +77,5 @@ This is normal log.
 Fancy>>> This is a fancy log.
 ```
 
+### [⬆ Top](#inheritace)
+### [⬅ Back](/index.md)
