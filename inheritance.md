@@ -13,7 +13,25 @@
 - To create **inheritance** we have to use `extends` keyword.
 - Before initializing child class constructot, first we have to call parent class constructor by `super([arguments])` to get access to the methods and fields of parent class.
 
-### Example
+## Diagram
+### - Single Level Inheritance
+
+```mermaid
+
+graph TD;
+
+A([Parent Class])-->B([Child Class]);
+```
+
+### - Multilevel Inheritance
+```mermaid
+graph TD;
+
+A([Parent Class of B])-->B([Child Class of A & Parent Class of C])
+B-->C([Child Class of B])
+```
+
+## Example
 
 ```javascript
 //parent class
