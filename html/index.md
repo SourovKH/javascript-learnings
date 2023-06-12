@@ -1,4 +1,4 @@
-![html-logo](/html/resources/pngwing.com%20(2).png)
+![html-logo](/html/resources/pngwing.com%20(2)%20copy.png)
 
 # My Learnings 📖
 
@@ -6,6 +6,7 @@
 
 1. [tags](#tags)
 2. [Attributes](#attributes)
+3. [Construction](#basic-construction-of-an-html-page)
 
 ## tags
 
@@ -35,3 +36,49 @@ here `style` is an attribute.
 
 - `<body>` - This is the main and visual part of HTML. The `<body>` element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
 
+### Example: 
+
+```html
+<html>
+  <head>
+    <title>Example</title>
+  </head>
+  <body>
+    Hello World
+  </body>
+</html>
+```
+
+## Various types of tags:
+
+## Headings tags:
+
+- These tags are used to add headings to any topic. There are six sizes of Heading tags-
+
+- Example:
+```html
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+```
+- Output:
+
+![Heading Output](/html/resources/Screenshot%202023-06-12%20at%2011.03.47%20PM.png)
+
+## Paragraph Tag:
+
+- The `<p>` tag defines a paragraph. Browsers automatically add a single blank line before and after each `<p>` element.
+
+### Example: 
+
+```html
+<html>
+  <body>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+  </body>
+</html>
+```
