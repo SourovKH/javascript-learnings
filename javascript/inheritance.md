@@ -1,4 +1,4 @@
-# Inheritace
+# Inheritance
 
 ## Overview
 - Inheritance in real life means getting property, title, debts, entitlement from parents. Inheritance in Javascript is a concept that is used to inherit fields and methods of a class.
@@ -7,17 +7,16 @@
 
 ### Why **inheritance** is needed?
 - Inheritance enables us to define a class that takes all functionalities (other than private) from a parent class and allows us to add more functionality to child class.
-- Inheritance allows code reusability and avoid repetation. 
+- Inheritance allows code reusability and avoid repetition. 
 
-### How to create **inheritance**?
-- To create **inheritance** we have to use `extends` keyword.
-- Before initializing child class constructot, first we have to call parent class constructor by `super([arguments])` to get access to the methods and fields of parent class.
+### How to use **inheritance**?
+- To use **inheritance** we have to use `extends` keyword.
+- Before initializing child class constructor, first we have to call parent class constructor by `super([arguments])` to get access to the methods and fields of parent class.
 
 ## Diagram:
 ### - Single Level Inheritance:
 
 ```mermaid
-
 graph TD;
 
 A([Parent Class])-->B([Child Class]);
@@ -53,7 +52,7 @@ class FancyLogger extends Logger {
   }
 
   fancyLog(message) {
-    this.log("Fancy>>> " + message);
+    this.log("Fancy: " + message);
   }
 }
 ```
@@ -74,7 +73,7 @@ const main() {
 ```
 Output:
 This is normal log.
-Fancy>>> This is a fancy log.
+Fancy: This is a fancy log.
 ```
 
 ### [⬆ Top](#inheritace)

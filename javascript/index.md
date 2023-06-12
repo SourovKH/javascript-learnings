@@ -1,6 +1,6 @@
-![js-image](/pngwing.com.png)
+![js-image](/resources/pngwing.com.png)
 
-# My Learnings
+# My Learnings 📖
 
 1. [Inheritance](./inheritance.md)
 2. [Async Testing](./async-testing.md)
