@@ -1,4 +1,4 @@
-![html-logo](/html/resources/pngwing.com%20(2)%20copy.png)
+![html-logo](./resources/html-logo2.png)
 
 # My Learnings 📖
 
@@ -7,7 +7,16 @@
 1. [tags](#tags)
 2. [Attributes](#attributes)
 3. [Construction](#basic-construction-of-an-html-page)
+4. [Various types of tags](#various-types-of-tags)
+    * [Heading](#headings-tags)
+    * [Paragraph](#paragraph-tag)
+    * [bold](#bold)
+    * [Italic](#italic)
+    * [Underline](#underline)
+    * [Break](#break)
+    * [List](#List)
 
+5. [responsiveness](responsiveness.md)
 ## tags
 
 - Tags are used to mark up the start of an HTML element and they are usually enclosed in angle.
@@ -55,7 +64,8 @@ here `style` is an attribute.
 
 - These tags are used to add headings to any topic. There are six sizes of Heading tags-
 
-- Example:
+### Example:
+
 ```html
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
@@ -64,9 +74,10 @@ here `style` is an attribute.
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 ```
-- Output:
 
-![Heading Output](/html/resources/Screenshot%202023-06-12%20at%2011.03.47%20PM.png)
+### Output:
+
+![Heading Output](./resources/headings.png)
 
 ## Paragraph Tag:
 
@@ -82,3 +93,71 @@ here `style` is an attribute.
   </body>
 </html>
 ```
+
+## Bold:
+
+- `<b>` tag is used to make any text bold.
+- We have to keep the section inside `<b>` `</b>` tags
+
+### Example:
+```html
+<b>This is bold text</b>
+```
+
+## Italic:
+
+- `<i>` tag is used to make any text italic format.
+
+### Example:
+```html
+<i>This is for italic.</i>
+```
+
+## Underline:
+- `<u>` tag is used to underline any text.
+
+### Example:
+```html
+<u>This is underlined text</u>
+```
+
+## Break:
+- `<br/>` Tag is used for new line. Normally in a single paragraph **HTML** doesn't understand new line by pressing enter key.
+- this doesn't have any closing tag.
+
+### Example:
+```html
+<p>
+  This is a line.<br/>
+  This is in next line.
+</p>
+```
+
+## List:
+
+- There are two types of list.
+  * Ordered list: `<ol>`
+  * Unordered list: `<ul>`
+
+- To add items to the list we have to use `<li>` tag.
+
+### Example:
+
+```html
+<ol>
+  <li>Mango</li>
+  <li>Orange</li>
+  <li>Banana</li>
+</ol>
+```
+This is ordered list.
+
+```html
+<ul>
+  <li>Mango</li>
+  <li>Orange</li>
+  <li>Banana</li>
+</ul>
+```
+This is unordered list.
+
