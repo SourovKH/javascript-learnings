@@ -17,6 +17,7 @@
     * [List](#List)
 
 5. [responsiveness](responsiveness.md)
+6. [dom](dom.md)
 ## tags
 
 - Tags are used to mark up the start of an HTML element and they are usually enclosed in angle.

@@ -11,7 +11,7 @@
 
 ### How to use **inheritance**?
 - To use **inheritance** we have to use `extends` keyword.
-- Before initializing child class constructor, first we have to call parent class constructor by `super([arguments])` to get access to the methods and fields of parent class.
+- Before initialising child class constructor, first we have to call parent class constructor by `super([arguments])` to get access to the methods and fields of parent class.
 
 ## Diagram:
 ### - Single Level Inheritance:
